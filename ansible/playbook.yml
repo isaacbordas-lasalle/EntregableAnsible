@@ -1,0 +1,9 @@
+---
+- name: Playbook Entregable Master
+  hosts: "webservers"
+  become: true
+  become_user: root
+  roles:
+    - geerlingguy.apache
+    - geerlingguy.mysql
+    - copyfiles
