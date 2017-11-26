@@ -1,8 +1,8 @@
 [webservers]
-52.215.75.98 ansible_ssh_private_key_file=/ansible/files/CentOS65.pem ansible_user=root
+34.241.68.5 ansible_ssh_private_key_file=/ansible/files/CentOS65.pem ansible_user=root
 
 [databases]
-52.215.75.98 ansible_ssh_private_key_file=/ansible/files/CentOS65.pem ansible_user=root
+34.241.68.5 ansible_ssh_private_key_file=/ansible/files/CentOS65.pem ansible_user=root
 
 [infraestructure:children]
 webservers
