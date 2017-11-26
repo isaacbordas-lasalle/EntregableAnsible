@@ -38,4 +38,4 @@ done
 
 # Execute Ansible
 echo "-> Execute Ansible"
-ansible-playbook /ansible/playbook.yml -i /ansible/inventories/production --connection=local
+ansible-playbook /ansible/playbook.yml -i /ansible/inventories/production
