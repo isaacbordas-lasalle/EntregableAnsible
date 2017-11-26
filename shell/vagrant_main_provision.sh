@@ -35,7 +35,3 @@ do
         echo "Already installed ${role_and_version}"
     fi
 done
-
-# Execute Ansible
-echo "-> Execute Ansible"
-ansible-playbook /ansible/playbook.yml -i /ansible/inventories/production
