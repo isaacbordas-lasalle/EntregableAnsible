@@ -35,3 +35,7 @@ do
         echo "Already installed ${role_and_version}"
     fi
 done
+
+# Execute Ansible manually on remote
+# echo "-> Execute Ansible"
+# ansible-playbook /ansible/playbook.yml -i /ansible/inventories/production
